@@ -1,0 +1,19 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+    margin: 25px;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .card-header {
+    background-color: rgba(10, 73, 60, 0.988);
+    padding: 20px;
+    color: rgb(217, 217, 217);
+  }
+  
+  .card-content {
+    padding: 20px;
+    color: rgb(217, 217, 217);
+  }
+  
