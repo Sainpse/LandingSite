@@ -10,15 +10,6 @@ import React from 'react';
 import "./SideNav.css";
 import Divider from 'rsuite/Divider';
 
-const headerStyles = {
-  padding: 18,
-  fontSize: 16,
-  height: 56,
-  background: '#34c3ff',
-  color: ' #fff',
-  whiteSpace: 'nowrap',
-  overflow: 'hidden'
-};
 
 const NavToggle = ({ expand, onChange }) => {
   return (
@@ -35,7 +26,7 @@ const NavToggle = ({ expand, onChange }) => {
 
 function Navigation() {
   const [expand, setExpand] = React.useState(false);
-  const [size, setSize] = React.useState('xs');
+  const [size] = React.useState('xs');
   const [open, setOpen] = React.useState(false);
   const [placement, setPlacement] = React.useState();
   const handleOpen = key => {
