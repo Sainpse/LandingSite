@@ -1,4 +1,4 @@
-import { CustomProvider } from 'rsuite';
+
 import "../../styles/card.css";
 
 function Card(props) {

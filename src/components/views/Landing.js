@@ -3,7 +3,6 @@ import { Container } from 'rsuite';
 import Navigation from '../elements/Navigation';
 import HeaderSainpse from "../elements/HeaderSainpse";
 import "../../styles/Landing.css";
-import { Icon } from '@rsuite/icons';
 
 
 

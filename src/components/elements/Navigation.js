@@ -4,7 +4,7 @@ import AngleRightIcon from '@rsuite/icons/legacy/AngleRight';
 import UserInfoIcon from '@rsuite/icons/UserInfo';
 import OneColumnIcon from '@rsuite/icons/OneColumn';
 import AppSelectIcon from '@rsuite/icons/AppSelect';
-import { Sidebar, Sidenav, Navbar, Nav,  Drawer, Button, Grid, Row, Col} from 'rsuite';
+import { Sidebar, Sidenav, Navbar, Nav,  Drawer, Grid, Row, Col} from 'rsuite';
 import Card from './Card';
 import React from 'react';
 import "./SideNav.css";

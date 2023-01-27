@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Container, Header, Sidebar, Sidenav, Content, FlexboxGrid } from 'rsuite';
+
+import { Header, FlexboxGrid } from 'rsuite';
 import './HeaderSainpse.css';
 
 function HeaderSainpse() {
