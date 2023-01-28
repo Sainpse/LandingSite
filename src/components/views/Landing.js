@@ -9,7 +9,7 @@ import "../../styles/Landing.css";
 
 const BackgroundVideo = () => (
     <video autoPlay loop muted>
-        <source src={'/asserts/bg3.mp4'} type="video/mp4" />
+        <source src={'/asserts/bg1.mp4'} type="video/mp4" />
         Your browser does not support the video tag.
     </video>
 );
