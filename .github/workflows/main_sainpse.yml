@@ -30,8 +30,7 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_060af157e4ec47cb93a652134812d68e }}/sainpse/webapp:${{ github.sha }}
-        file: ./Dockerfile
+        tags: index.docker.io/${{ secrets.AzureAppService_ContainerUsername_060af157e4ec47cb93a652134812d68e }}/sainpse/webapp:latest
 
   deploy:
     runs-on: ubuntu-latest
@@ -48,4 +47,4 @@ jobs:
         app-name: 'sainpse'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_bb1267e2e4734878b405319914222384 }}
-        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_060af157e4ec47cb93a652134812d68e }}/sainpse/webapp:${{ github.sha }}'
+        images: 'index.docker.io/${{ secrets.AzureAppService_ContainerUsername_060af157e4ec47cb93a652134812d68e }}/sainpse/webapp:latest'
