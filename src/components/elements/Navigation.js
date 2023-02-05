@@ -7,8 +7,11 @@ import AppSelectIcon from '@rsuite/icons/AppSelect';
 import { Sidebar, Sidenav, Navbar, Nav,  Drawer, Grid, Row, Col} from 'rsuite';
 import Card from './Card';
 import React from 'react';
-import "./SideNav.css";
+import "../../styles/SideNav.css";
 import Divider from 'rsuite/Divider';
+import { Link } from "react-router-dom";
+
+
 
 
 const NavToggle = ({ expand, onChange }) => {
@@ -44,7 +47,7 @@ function Navigation() {
         <Sidenav expanded={expand} defaultOpenKeys={['3']} appearance="subtle">
           <Sidenav.Body>
             <Nav>
-              <Nav.Item eventKey="1" icon={<OneColumnIcon />}>
+              <Nav.Item eventKey="1"  href="/" icon={<OneColumnIcon />}>
                 S | AI | N P S E
               </Nav.Item>
               <Nav.Item eventKey="2" icon={<AdvancedAnalyticsIcon />} onClick={() => handleOpen('bottom')}>
@@ -59,7 +62,7 @@ function Navigation() {
               >
                 <Nav.Item eventKey="3-1">Hedgehog</Nav.Item>
                 <Nav.Item eventKey="3-2">Merch</Nav.Item>
-                <Nav.Item eventKey="3-3">AI Art</Nav.Item>
+                <Nav.Item eventKey="3-3" as={Link} to="/AiArt">AI Art</Nav.Item>
                 <Nav.Item eventKey="3-4">Education</Nav.Item>
                 <Nav.Item eventKey="3-5">Project Requests</Nav.Item>
               </Nav.Menu>
@@ -70,7 +73,7 @@ function Navigation() {
                 icon={<UserInfoIcon />}
                 placement="rightStart"
               >
-                <a href='https://github.com/Sainpse'><Nav.Item eventKey="4-1">Github</Nav.Item></a>
+               <Nav.Item eventKey="4-1">Github</Nav.Item>
                 <Nav.Item eventKey="4-2">Mail</Nav.Item>
                 <Nav.Item eventKey="4-3">Phone</Nav.Item>
                 <Nav.Item eventKey="4-4">Twitter</Nav.Item>

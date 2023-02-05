@@ -1,15 +1,22 @@
 import 'rsuite/dist/rsuite.min.css';
 import Landing from './components/views/Landing';
-import { CustomProvider } from 'rsuite';
+import AiArt from './components/views/AiArt';
+import {
+  BrowserRouter,
+  Route, Routes
+} from "react-router-dom";
+
 
 function App() {
   return (
-    <CustomProvider theme='dark'>
+    <BrowserRouter>
       <div>
-        <Landing />
+        <Routes>
+          <Route exact path="/" element={<Landing />} />
+          <Route exact path="/Aiart" element={<AiArt />} />
+        </Routes>
       </div>
-    </CustomProvider>
-
+    </BrowserRouter>
   );
 }
 

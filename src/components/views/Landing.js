@@ -1,10 +1,8 @@
 import React from 'react';
-import { Container } from 'rsuite';
+import { Container} from 'rsuite';
 import Navigation from '../elements/Navigation';
 import HeaderSainpse from "../elements/HeaderSainpse";
 import "../../styles/Landing.css";
-
-
 
 
 const BackgroundVideo = () => (
@@ -15,9 +13,6 @@ const BackgroundVideo = () => (
 );
 
 const Landing = () => {
-    
-   
-  
     return (
         <div className="show-fake-browser sidebar-page header">
             <Container className='Landingbg'>

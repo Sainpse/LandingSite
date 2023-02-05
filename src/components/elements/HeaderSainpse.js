@@ -1,6 +1,6 @@
 
 import { Header, FlexboxGrid } from 'rsuite';
-import './HeaderSainpse.css';
+import '../../styles/HeaderSainpse.css';
 
 function HeaderSainpse() {
 

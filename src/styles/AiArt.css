@@ -1,0 +1,56 @@
+
+.cImg{
+    object-fit:cover !important;
+} 
+
+
+.cImgDonwload{
+    object-fit:contain !important;
+} 
+
+.slider{
+    height: 540px;
+}
+
+.Title{
+    color: aliceblue;
+    text-align: center;
+    background-color:  rgba(10, 73, 60, 1); ;
+    padding: 20px;
+}
+
+
+.TitleImageTypes{
+    color: aliceblue;
+    text-align: center;
+    background-color:  rgba(10, 73, 60, 1); ;
+    padding: 20px;
+}
+
+.Explain{
+    padding: 5%;
+    background-color:#212222;
+    text-align: center;
+}
+.captions{
+    padding-top: 20px;
+    text-decoration:underline;
+}
+
+.contentCol{
+
+    padding:30px;
+    padding-top: 10%;
+    
+}
+.Link{
+    color: aliceblue !important;
+}
+
+.LinkSainpse{
+    padding: 10px;
+    margin: 50px !important;
+    color: aliceblue !important;
+    background-color:  rgba(10, 73, 60, 1);
+    border-radius: 20px;
+}
