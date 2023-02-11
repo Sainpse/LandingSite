@@ -59,7 +59,6 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background-color: rgba(10, 73, 60, 1);
     overflow: hidden;
-    width:calc();
     text-align: center;
     align-items: center;
   }
