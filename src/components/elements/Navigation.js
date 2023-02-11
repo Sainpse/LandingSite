@@ -60,11 +60,11 @@ function Navigation() {
                 icon={<AppSelectIcon />}
                 placement="rightStart"
               >
-                <Nav.Item eventKey="3-1">Hedgehog</Nav.Item>
-                <Nav.Item eventKey="3-2">Merch</Nav.Item>
+                <Nav.Item eventKey="3-1" as={Link} to="/Coming">Hedgehog</Nav.Item>
+                <Nav.Item eventKey="3-2" as={Link} to="/Coming">Merch</Nav.Item>
                 <Nav.Item eventKey="3-3" as={Link} to="/AiArt">AI Art</Nav.Item>
-                <Nav.Item eventKey="3-4">Education</Nav.Item>
-                <Nav.Item eventKey="3-5">Project Requests</Nav.Item>
+                <Nav.Item eventKey="3-4" as={Link} to="/Coming">Education</Nav.Item>
+                <Nav.Item eventKey="3-5" as={Link} to="/Coming">Project Requests</Nav.Item>
               </Nav.Menu>
               <Nav.Menu
                 eventKey="4"
@@ -99,16 +99,16 @@ function Navigation() {
           </Row>
           <Row className="AboutValues">
               <Col lg={6} xs={24}>
-                  <Card header="Empowerment" content="By empowering individuals, we aim to enable them to make the most of their abilities and achieve their full potential, both personally and professionally."/>
+                  <Card header="Empowerment" content="By empowering individuals, I aim to enable people to make the most of their abilities and achieve their full potential, both personally and professionally."/>
               </Col>
               <Col lg={6}  xs={24}>
-                <Card header="Efficiency" content="By striving for efficiency, we aim to make the best use of our resources and minimize waste, in order to achieve our goals in the most effective and efficient manner possible."/>
+                <Card header="Efficiency" content="By striving for efficiency, I aim to make the best use of my resources, in order to achieve my goals in the most effective and efficient manner possible."/>
               </Col>
               <Col lg={6}  xs={24}>
-                <Card header="Clarity" content="By prioritizing clarity, we aim to ensure that our communication and decision-making processes are as transparent and straightforward as possible, which can help to minimize confusion and misunderstandings."/>
+                <Card header="Clarity" content="By prioritizing clarity, The aim is to ensure that my communication and decision-making processes is transparent and straightforward as possible, which can help to minimize confusion and misunderstandings."/>
               </Col>
               <Col lg={6}  xs={24}>
-                <Card header="Collaboration" content="By fostering collaboration, we aim to encourage the sharing of knowledge, ideas, and expertise among people, enabling us to achieve more together than we could individually."/>
+                <Card header="Collaboration" content="By fostering collaboration, The aim is to encourage the sharing of knowledge, ideas, and expertise among people, enabling us to achieve more together than we could individually."/>
               </Col>
           </Row>
           <Row>
@@ -116,7 +116,7 @@ function Navigation() {
               <Divider />
               <h2>Mission</h2>
               <Divider />
-              <p className='AboutMissionContent'>At Sainpse Institute of Augmented Intelligence, our mission is to empower individuals, organizations and society as a whole through the integration of cutting-edge machine intelligence and human expertise.</p>
+              <p className='AboutMissionContent'>The Sainpse Institute of Augmented Intelligence mission is simply to empower individuals, organizations and society as a whole though Augmented Intelligence</p>
               <p className=''>2023 - Sainpse</p>
             </Col>
           </Row>

@@ -54,3 +54,20 @@
     background-color:  rgba(10, 73, 60, 1);
     border-radius: 20px;
 }
+
+.cardImg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(10, 73, 60, 1);;
+    overflow: hidden;
+    width:calc();
+    text-align: center;
+    align-items: center;
+  }
+  
+  .card-header {
+    background-color:  rgb(10, 70, 58);;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
