@@ -118,6 +118,7 @@ function Navigation() {
               <Divider />
               <p className='AboutMissionContent'>The Sainpse Institute of Augmented Intelligence mission is simply to empower individuals, organizations and society as a whole though Augmented Intelligence</p>
               <p className=''>2023 - Sainpse</p>
+              <a href="https://www.codementor.io/@marcusmadumo?refer=badge"><img src="https://www.codementor.io/m-badges/marcusmadumo/im-a-cm-b.svg" alt="Codementor badge"/></a>
             </Col>
           </Row>
         </Grid>
