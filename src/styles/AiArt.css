@@ -1,6 +1,7 @@
 
 .cImg{
     object-fit:cover !important;
+    max-width: 100%;
 } 
 
 
@@ -68,5 +69,9 @@
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #ccc;
+  }
+
+  .rowFit{
+    width: 100% !important;
   }
   
