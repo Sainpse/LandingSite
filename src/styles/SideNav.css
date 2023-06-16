@@ -1,14 +1,13 @@
 
 .SideNav-container {
     position:absolute !important;
-    background-color: rgba(10, 73, 60, 0.928);
-    border-bottom-right-radius:55%;
-    border-top-right-radius:1%;
-    top: 50% !important;
+    background-color: rgba(29, 30, 30, 0.928);
+   
+    top: 20% !important;
     left: 0;
     z-index: 1;
     padding-top: 50%;
-    padding-bottom: 50%;
+    padding-bottom: 20%;
     transform: translateY(-50%);
 }
 
@@ -23,9 +22,7 @@
   }
 
   .AboutValues{
-    
     text-align: center;
-
   }
 
   .AboutMissionContent{

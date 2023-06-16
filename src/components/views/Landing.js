@@ -5,12 +5,6 @@ import HeaderSainpse from "../elements/HeaderSainpse";
 import "../../styles/Landing.css";
 
 
-const BackgroundVideo = () => (
-    <video autoPlay loop muted>
-        <source src={'/asserts/bg2.mp4'} type="video/mp4" />
-        Your browser does not support the video tag.
-    </video>
-);
 
 const Landing = () => {
     return (
@@ -18,7 +12,7 @@ const Landing = () => {
             <Container className='Landingbg'>
                 <Navigation />
                 <Container className='bg'>
-                    <BackgroundVideo />
+                    
                     <HeaderSainpse />
                 </Container>
             </Container>
