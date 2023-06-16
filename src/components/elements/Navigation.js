@@ -73,11 +73,7 @@ function Navigation() {
                 icon={<UserInfoIcon />}
                 placement="rightStart"
               >
-               <Nav.Item eventKey="4-1">Github</Nav.Item>
-                <Nav.Item eventKey="4-2">Mail</Nav.Item>
-                <Nav.Item eventKey="4-3">Phone</Nav.Item>
-                <Nav.Item eventKey="4-4">Twitter</Nav.Item>
-                <Nav.Item eventKey="4-5">Instagram</Nav.Item>
+               <Nav.Item eventKey="4-1" as={Link} to="https://github.com/Sainpse">Github</Nav.Item>
               </Nav.Menu>
             </Nav>
           </Sidenav.Body>
