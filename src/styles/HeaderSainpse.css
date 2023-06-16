@@ -1,25 +1,33 @@
 .header-container {
     position:fixed;
-    top: 50%;
+    top: 55%;
     left: 50%;
-    width: 75%;
+    width: 100%;
     transform: translate(-50%, -50%);
     text-align: center;
+    
+    
 }
-.bg{
-    background-color: aqua;
-}
+
+  
 .title {
     font-size: 28px;
     font-weight: bold;
+    margin-bottom: 10px;
+    background-color:rgba(23, 23, 23, 0.5);
+    margin-left: 20%;
+    margin-right: 20%;
+    animation: fadeIn 2s ease-in-out;
+    border-radius: 15px;
     margin-bottom: 10px;
 }
 .subtitle {
     font-size: 15px;
     font-weight: bold;
     color: rgb(15, 104, 86);
-    background-color:rgba(23, 23, 23, 0.5);
-    padding:5px;
+    animation: slideIn 2s ease-in-out;
+    padding:20px;
+ 
     border-radius: 15px;
     margin-bottom: 10px;
     text-align: center;
@@ -30,4 +38,28 @@
     font-size: 15px;
     font-style: italic;
     margin-top: 0;
+    animation: slideIn 3s ease-in-out;
 }
+
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-90px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

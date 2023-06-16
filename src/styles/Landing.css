@@ -6,4 +6,12 @@ video {
     height: 100%;
     object-fit: cover;
   }
+
+  .LandingBG{
+    background-image: url('../../public/asserts/bg_sainpse_art.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+  }
   
