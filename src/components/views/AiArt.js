@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import Navigation from '../elements/Navigation';
 import "../../styles/AiArt.css";
 import ArtHeader from '../elements/ArtHeader';
-import Loader from '../elements/Loader'
 import "../../styles/Landing.css";
 
 
