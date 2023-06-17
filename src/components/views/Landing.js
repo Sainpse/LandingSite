@@ -24,6 +24,7 @@ const Landing = () => {
                 <Navigation />
                 <Container className='bg'>
                 {isLoading ? <Loader /> : <HeaderSainpse />}
+                   
                 </Container>
             </Container>
         </div>
