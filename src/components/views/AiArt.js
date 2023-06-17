@@ -23,8 +23,7 @@ const AiArt = () => {
             <Container className='Landingbg'>
                 <Navigation />
                 <Container className='bg'>
-                    {isLoading ? <Loader /> : <ArtHeader />}
-                  
+                    <ArtHeader />
                 </Container>
             </Container>
         </div>
