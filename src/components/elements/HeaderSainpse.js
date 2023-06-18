@@ -10,7 +10,7 @@ function HeaderSainpse() {
                     <div className="header-container">
                        
                         <h1 className="title animated-component">S | AI | N P S E</h1>
-                        <h6 className="subtitle">Institute of augmented intelligence</h6>
+                        <h6 className="subtitle">Augmenting you with intelligence</h6>
                         <p className="mission-statement">Empowering individuals and organizations to make data-driven decisions</p>
                     </div>
             </FlexboxGrid>
