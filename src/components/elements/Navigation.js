@@ -112,7 +112,9 @@ function Navigation() {
               <Divider />
               <h2>Mission</h2>
               <Divider />
-              <p className='AboutMissionContent'>The Sainpse Institute of Augmented Intelligence mission is simply to empower individuals, organizations and society as a whole though Augmented Intelligence</p>
+              <p className='AboutMissionContent'>The Sainpse brand embraces a philosophy of problem-solving and way of living, embodying the principles of large networks and collaboration to unlock meta emergent intelligence. Inspired by the intricate neural networks of the brain, our approach leverages technology to achieve augmentation and transcend conventional boundaries.
+Derived from the word "synapse," which signifies the vital communication pathways between brain neurons, the name Sainpse seamlessly integrates AI to emphasize the paramount role of artificial intelligence in our philosophy.
+My core purpose is to empower individuals, organizations, and society at large by harnessing the transformative power of Augmented Intelligence. Through cutting-edge technology and a collaborative mindset, we strive to unlock new possibilities, advance collective knowledge, and drive positive change in the world</p>
               <p className=''>2023 - Sainpse</p>
               <a href="https://www.codementor.io/@marcusmadumo?refer=badge"><img src="https://www.codementor.io/m-badges/marcusmadumo/im-a-cm-b.svg" alt="Codementor badge"/></a>
             </Col>
