@@ -1,5 +1,5 @@
-import React,  { useEffect } from 'react';
-import { Container, Form, Input, InputNumber, Button, Checkbox, CheckboxGroup } from 'rsuite';
+import React from 'react';
+import { Container, Form, Input, Button, Checkbox, CheckboxGroup } from 'rsuite';
 import Navigation from '../elements/Navigation';
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
