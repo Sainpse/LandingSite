@@ -64,7 +64,7 @@ function Navigation() {
                 <Nav.Item eventKey="3-2" as={Link} to="/Coming">Merch</Nav.Item>
                 <Nav.Item eventKey="3-3" as={Link} to="/AiArt">AI Art</Nav.Item>
                 <Nav.Item eventKey="3-4" as={Link} to="/Coming">Education</Nav.Item>
-                <Nav.Item eventKey="3-5" as={Link} to="/Coming">Project Requests</Nav.Item>
+                <Nav.Item eventKey="3-6" as={Link} to="/ProjectRequests">Project Requests</Nav.Item>
               </Nav.Menu>
               <Nav.Menu
                 eventKey="4"
