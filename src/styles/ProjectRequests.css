@@ -1,0 +1,209 @@
+/* Import a custom font for the form */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+/* Set the background color and image for the body */
+body {
+    background-color: #3a3939;
+    background-image: url('../../public/asserts/bg_sainpse_art.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Add some margin and padding for the container */
+.containerClassForm {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+}
+
+/* Add some styles for the form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    padding-top: 4px;
+    font-weight: 500;
+    color: #dcdcdc;
+}
+
+/* Add some styles for the form inputs */
+input, textarea, inputnumber, checkboxgroup {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.textarea {
+    height: auto !important;
+}
+
+/* Change the border color of the inputs on focus */
+input:focus, textarea:focus, inputnumber:focus, checkboxgroup:focus {
+    border-color: #66e99f;
+}
+
+/* Add some styles for the form button */
+button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #04734e;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Change the background color of the button on hover */
+button:hover {
+    background-color: #089767;
+}
+
+/* Add some styles for the checkbox group */
+checkboxgroup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Add some styles for the individual checkboxes */
+checkbox {
+    flex: 1 0 33%;
+    margin-right: 10px;
+}
+
+/* Add some animation for the form elements */
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+label, input, textarea, inputnumber, checkboxgroup, button {
+    animation: slide-in 0.5s ease-in-out;
+}
+
+label:nth-child(1), input:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+label:nth-child(3), textarea:nth-child(4) {
+    animation-delay: 0.2s;
+}
+
+label:nth-child(5), input:nth-child(6) {
+    animation-delay: 0.3s;
+}
+
+label:nth-child(7), input:nth-child(8) {
+    animation-delay: 0.4s;
+}
+
+label:nth-child(9), inputnumber:nth-child(10) {
+    animation-delay: 0.5s;
+}
+
+label:nth-child(11), checkboxgroup:nth-child(12) {
+    animation-delay: 0.6s;
+}
+
+button:nth-child(13) {
+    animation-delay: 0.7s;
+}
+
+
+
+input, textarea, inputnumber, checkboxgroup {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.textarea {
+    height: auto !important;
+}
+
+input:focus, textarea:focus, inputnumber:focus, checkboxgroup:focus {
+    border-color: #66e99f;
+    box-shadow: 0 0 8px 0 rgba(102, 233, 159, 0.6);
+}
+
+button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #04734e;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #089767;
+    transform: scale(1.05);
+}
+
+checkboxgroup {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+checkbox {
+    flex: 1 0 33%;
+    margin-right: 10px;
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Add some styles for the form container */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 12px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Add some styles for the form title */
+.form-title {
+    font-size: 1.5em;
+    color: #0b7266;
+    text-align: center;
+    margin-bottom: 2px;
+}
