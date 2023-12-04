@@ -47,35 +47,39 @@ const ProjectRequests = () => {
                         <p className='form-subtitle'>What will be help you become better at what you do?</p>
                     </div>
                     <Form fluid>
-                        <label>Project Name</label>
+                       
                         <Input
                             name="projectName"
                             value={projectName}
+                            placeholder='Project Name'
                             onChange={value => setProjectName(value)}
                         />
-                        <label>Project Description</label>
+                       
                         <Input
                             name="projectDescription"
                             componentClass="textarea"
                             as="textarea" 
-                            rows={6}
+                            rows={3}
                             value={projectDescription}
+                            placeholder='Project Description'
                             onChange={value => setProjectDescription(value)}
                         />
-                        <label>Full Name</label>
+                       
                         <Input
                             name="clientName"
                             value={clientName}
+                            placeholder='Full Name'
                             onChange={value => setClientName(value)}
                         />
-                        <label>Email</label>
+                       
                         <Input
                             name="clientEmail"
                             value={clientEmail}
+                            placeholder='Email'
                             onChange={value => setClientEmail(value)}
                         />
                     
-                        <label>Type</label>
+                        
                         <CheckboxGroup
                             name="categories"
                             value={categories}
