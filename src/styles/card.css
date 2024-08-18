@@ -1,19 +1,45 @@
-.card {
+/* .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     max-width: 300px;
     margin: 25px;
     text-align: center;
     font-family: arial;
-  }
+  } */
   
-  .card-header {
+  /* .card-header {
     background-color: rgba(10, 73, 60, 0.988);
     padding: 20px;
     color: rgb(217, 217, 217);
-  }
+  } */
   
   .card-content {
+    margin-top: 10%;
     padding: 20px;
     color: rgb(217, 217, 217);
   }
+
+
+  .card {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                -15px -15px 30px rgb(60, 60, 60);
+    margin: 20px auto; /* Center the card */
+  }
   
+  @media (max-width: 768px) {
+    .card {
+      width: 90%;
+      height: auto; /* Adjust height if needed */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: 100%;
+      height: auto; /* Adjust height if needed */
+    }
+  }
